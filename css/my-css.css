@@ -1,1 +1,70 @@
+body {
+    color: black;
+    background-color: rgb(149, 189, 226);
+    padding: 0.5vw;
+}
 
+p,
+h1,
+h2,
+h3,
+li,
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2vw;
+   
+    
+}
+iframe {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+     
+h1{
+    font-size: 3vw;
+   
+}
+h2{
+    font-size: 2vw;
+}
+h3, li{
+    font-size: 1.5vw;
+    }
+
+nav {
+    font-size: 20px;
+    padding: 20px; 
+text-decoration:underline;
+overflow: hidden;
+}
+
+a:hover {
+    color: blue;
+}
+
+.footer {   
+
+    padding: 0.5vw;
+
+    font-size: 2vw;
+    text-align: center;   
+   
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
+    vertical-align:middle;
+}
+  div {
+    width: 20%;
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
+    vertical-align:middle;
+  }
+  
