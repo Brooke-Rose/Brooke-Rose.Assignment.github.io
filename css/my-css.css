@@ -68,3 +68,8 @@ img {
     vertical-align:middle;
   }
   
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+  }
