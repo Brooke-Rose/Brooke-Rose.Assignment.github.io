@@ -9,7 +9,8 @@ h1,
 h2,
 h3,
 li,
-nav {
+nav, 
+footer {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 2vw;
@@ -24,6 +25,7 @@ iframe {
      
 h1{
     font-size: 3vw;
+    padding: 8px 15px;
    
 }
 h2{
@@ -33,16 +35,36 @@ h3, li{
     font-size: 1.5vw;
     }
 
-nav {
+
+#menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
     font-size: 20px;
     padding: 20px; 
 text-decoration:underline;
 overflow: hidden;
 }
 
-a:hover {
-    color: blue;
-}
+  
+  
+  
+  #menu li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    color: #069;
+  
+    
+  }
+  
+  #menu li a:hover {
+   color: #eee;
+  }
 
 .footer {   
 
@@ -61,15 +83,22 @@ img {
     vertical-align:middle;
 }
   div {
-    width: 20%;
+    width: 100%;
     height: auto;
     min-height: 100%;
     overflow: hidden;
-    vertical-align:middle;
+    text-align: float;
   }
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 8px;
+ 
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
