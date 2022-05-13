@@ -17,8 +17,6 @@ footer {
   font-size: 2vw;
   padding: 0.5vw;
   color: black;
-
-
 }
 
 
@@ -59,13 +57,12 @@ ul li A {
   color: #eee;
 }
 
-.footer {
+footer {
 
   padding: 0.5vw;
-
+  color: black;
   font-size: 2vw;
   text-align: center;
-
   padding: 2vw;
 }
 
