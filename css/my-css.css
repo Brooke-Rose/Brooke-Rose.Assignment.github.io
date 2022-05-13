@@ -3,6 +3,7 @@ body {
   background-color: rgb(149, 189, 226);
   padding: 0.5vw;
   margin: 0.5px;
+  word-spacing: normal;
 }
 
 
@@ -11,12 +12,14 @@ h2,
 h3,
 li,
 nav,
-footer {
+footer,
+a {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 2vw;
   padding: 0.5vw;
   color: black;
+  word-spacing: normal;
 }
 
 
