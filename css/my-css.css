@@ -1,7 +1,7 @@
 body {
   color: black;
   background-color: rgb(149, 189, 226);
-  padding: 0.5vw;
+  padding: 0.2vw;
   margin: 0.5px;
   word-spacing: normal;
 }
@@ -17,7 +17,7 @@ a {
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 2vw;
-  padding: 0.5vw;
+  padding: 0.2vw;
   color: black;
   word-spacing: normal;
 }
