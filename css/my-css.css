@@ -1,9 +1,9 @@
 body {
-  color: black;
+
   background-color: rgb(149, 189, 226);
   padding: 0.2vw;
   margin: 0.5px;
-  word-spacing: normal;
+  
 }
 
 
@@ -29,6 +29,7 @@ h1 {
   text-decoration: underline;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  word-spacing: normal;
 }
 
 #menu {
@@ -64,7 +65,7 @@ footer {
   color: black;
   font-size: 2vw;
   text-align: center;
-  padding: 2vw;
+  
 }
 
 img {
